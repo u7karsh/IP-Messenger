@@ -1,0 +1,13 @@
+while(1)
+set result = myCommand.Execute
+MsgBox result.Fields(0)
+if result.Fields(0) = 1 Then
+MsgBox "Crisis Detected! Shutting down the pc in 5 seconds", vbInformation
+Wscript.Sleep 5000
+Dim objshell
+set objShell = CreateObject("WScript.Shell") 
+strShutdown = "shutdown -s -t 0 -f -m \\" & "."
+objShell.Run strShutdown
+Wscript.Quit
+End if
+Wend

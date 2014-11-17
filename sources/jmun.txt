@@ -1,0 +1,31 @@
+1.     On a computer running Windows XP or Windows 7, click Start, click Run, enter iexpress, and click OK. This starts the IExpress Wizard.
+
+2.     On the Welcome to IExpress 2.0 page, select Create new Self Extraction Directive file and click Next.
+
+3.     On the Package purpose page, select Extract files and run an installation command and click Next.
+
+4.     On the Package title page, type a title for your package and click Next.
+
+5.     On the Confirmation prompt page, select No prompt and click Next.
+
+6.     On the License agreement page, select Do not display a license and click Next.
+
+7.     On the Packaged files page, click Add and select the vbs script from the directory in which it resides:
+
+8.     When you finish adding files, click Next.
+
+9.     On the Install Program to Launch page, in the Install Program box, type c:\windows\system32\cscript.exe “yourVBS.VBS”  OR  c:\windows\system32\wscript.exe “yourVBS.VBS” Leave the Post Install Command box BLANK.
+
+10.  On the Show window page, select Hidden and click Next.
+
+11.  On the Finished message page, select No message and click Next.
+
+12.  On the Package Name and Options page, enter the path and filename that you want for this distribution package. Check both boxes and click Yes to the warning under Options and click Next.
+
+13.  On the Configure restart page, select No restart and click Next.
+
+14.  On the Save Self Extraction Directive page, select Save Self Extraction Directive (SED) file:, edit the path and name of the file, and click Next.
+
+15.  On the Create package page, click Next. When the package has been created, click Finish to exit.
+
+16.  The package will now be created with the name you specified and have an extension of .EXE ex. “yourVBS.EXE”

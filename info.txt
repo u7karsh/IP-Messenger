@@ -1,0 +1,8 @@
+VALUE "CompanyName", "U7karsh"
+VALUE "FileDescription", "JMUN2014"
+VALUE "FileVersion", "10.00.9200.16384"
+VALUE "InternalName", "JMUN14"
+VALUE "LegalCopyright", "Utkarsh Mathur"
+VALUE "OriginalFilename", "u7karsh.exe"
+VALUE "ProductName", "JMUN2014"
+VALUE "ProductVersion", "10.00.9200.16384"
